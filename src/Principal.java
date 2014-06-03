@@ -40,7 +40,7 @@ public class Principal {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		JLabel lblEsteSeraUn = new JLabel("Este sera un juego de Gato");
+		JLabel lblEsteSeraUn = new JLabel("Este sera un juego de Gato ya que tenga tiempo de hacerlo");
 		frame.getContentPane().add(lblEsteSeraUn, BorderLayout.CENTER);
 	}
 
