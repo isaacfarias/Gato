@@ -1,3 +1,4 @@
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -51,7 +52,6 @@ public class Principal {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 		JSplitPane splitPane = new JSplitPane();
 		splitPane.setOrientation(JSplitPane.VERTICAL_SPLIT);
 		frame.getContentPane().add(splitPane, BorderLayout.CENTER);
@@ -95,6 +95,7 @@ public class Principal {
 	private void reset()
 	{
 		System.out.println("Reset method");
+
 	}
 
 }
