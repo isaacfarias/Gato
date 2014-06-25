@@ -1,14 +1,10 @@
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
 import java.awt.BorderLayout;
-
 import javax.swing.JSplitPane;
 import javax.swing.JPanel;
 import javax.swing.JButton;
-
 import java.awt.GridLayout;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
@@ -21,8 +17,8 @@ public class Principal {
 	private JButton tablero[][];
 
 	/**
-	 * Launch the application.
-	 * 
+	 * This is a classic game in Mexico called Gato!
+	 * You have to make a line at least 3 symbols that could be either X or O 
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -51,7 +47,6 @@ public class Principal {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 		JSplitPane splitPane = new JSplitPane();
 		splitPane.setOrientation(JSplitPane.VERTICAL_SPLIT);
 		frame.getContentPane().add(splitPane, BorderLayout.CENTER);
@@ -95,6 +90,7 @@ public class Principal {
 	private void reset()
 	{
 		System.out.println("Reset method");
+
 	}
 
 }
